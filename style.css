@@ -1,0 +1,136 @@
+html {
+
+}
+
+header {
+  background-color: #3C6EC6;
+  text-align: center;
+
+}
+header a.menu {
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 15px;
+  font-size: 2em;
+}
+
+header a.menu:hover {
+  color: #C4BEC1;
+  transition-duration: 500ms;
+}
+
+.logo {
+  min-width: 20%;
+  max-width: 200px;
+}
+
+.Reseaux {
+  background-color: #F21031;
+  height: auto;
+  width: 100%;
+  text-align: center;
+
+}
+.Reseaux a {
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 1em;
+}
+
+.Reseaux img {
+  height: 35px;
+}
+
+.RIFFX {
+  font-size: 2em;
+}
+.RIFFX2 {
+  font-size: 1em;
+}
+
+body {
+  background-color: #41B8FF;
+  height: 100%;
+  margin:auto;
+  padding:auto;
+}
+
+.Actu {
+  /* height: 500px; */
+  /* background-color: grey; */
+}
+
+.Actu img {
+  width: 100%;
+}
+
+.Contenu {
+  /* margin-left: 8.5%;
+  margin-right: 8.5%; */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Evenement {
+  width: 100%;
+  height: 200px
+  text-align: center;
+
+}
+
+.Evenement img {
+  margin: 1em;
+  width: 45%;
+
+}
+
+.Video {
+  /* margin-left: 8.5%;
+  margin-right: 8.5%; */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.Video iframe {
+  margin: 1em;
+  /* max-width: 177.78vh; */
+  /* 16/9 = 1.778 */
+  height: 56.25vw;
+  /* height:width ratio = 9/16 = .5625  */
+  max-height: 100vh;
+}
+
+footer {
+  background-color: #3C6EC6;
+  height: 13em;
+  clear:both;
+  width: 100%;
+  text-align: center;
+  border-top: solid red;
+}
+footer span {
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 15px;
+  font-size: 1.4em;
+}
+footer p {
+
+}
+
+.crane {
+  position: absolute;
+  left:0;
+  margin-top: -100px;
+  width: 15em;
+}
+.nuage {
+  position: absolute;
+  right:0;
+  margin-top: -85px;
+  width: 20em;
+}
